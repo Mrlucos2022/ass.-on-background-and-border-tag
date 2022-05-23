@@ -1,0 +1,43 @@
+<!Doctype HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <tittle>html border and background</tittle>
+    </head>
+        <body style="background-image:url('Shoot.ng.png')">
+        <!--Html border for tables-->
+        <table border="10" bgcolor="pink">
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email</th>
+                </tr>
+            </thead>    
+            <tbody>
+                <tr>
+                    <td>Jane</td>
+                    <td>Doe</td>
+                    <td>Janedoe@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Emmy</td>
+                    <td>Johson</td>
+                    <td>Emmyjohnson@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Sam</td>
+                    <td>Walker</td>
+                    <td>Samwalker@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+        <!--Border for image element-->
+        <br>
+        <img src="Shoot.ng.png" width="300px" height="200px" alt="Ipop Music"border="5">
+
+        <!--Border for object element-->
+        <br>
+        <object data="Shoot.ng.png" width="300px" height="200px" alt="Ipop Music"border="5">
+    </body>
+</html>        
